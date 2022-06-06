@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { DarkTheme, mediaQueries } from "../components/Themes";
+import { NavLink } from "react-router-dom";
 
 const Logo = styled.h1`
   display: inline-block;
@@ -9,8 +10,8 @@ const Logo = styled.h1`
   position: fixed;
   left: 2rem;
   top: 2rem;
-
   z-index: 3;
+  cursor: pointer;
 
   ${mediaQueries(40)`
       font-size:1.5em;
@@ -20,7 +21,9 @@ const Logo = styled.h1`
 `;
 
 const LogoComponent = (props) => {
-  return <Logo color={props.theme}>LF</Logo>;
+
+  return <NavLink to="/"><Logo color={props.theme} ><>LF</></Logo></NavLink> ;
+  
 };
 
 export default LogoComponent;

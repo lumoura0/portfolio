@@ -45,7 +45,7 @@ export const Blogs = [
         tags:["HTML","CSS","JS"],
         date:"12 Dez, 2021",
         imgSrc:"https://i.imgur.com/npPG5uu.png",
-        link:"https://codebucks.hashnode.dev/pagination-in-react"
+        link:"https://github.com/lumoura0/flexblog"
 
     },
    

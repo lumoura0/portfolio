@@ -13,11 +13,10 @@ const Icons = styled.div`
   position: fixed;
   bottom: 0;
   left: 2rem;
-
   z-index: 3;
 
   & > *:not(:last-child) {
-    margin: 0.5rem 0;
+    margin: 0.4rem 0;
 
     ${mediaQueries(20)`
       margin: 0.3rem 0;
